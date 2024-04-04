@@ -4,7 +4,7 @@ This repository contains code for image compression using K-means clustering.
 The notebook is self-explanatory and contains explanations of all cells written to aid the reader.
 
 The code in the notebook makes use of only numpy, pandas, and matplotlib. Other external libraires have not been used. 
-In essence, it is an implementation 'from scratch'.
+In essence, it is an implementation from "scratch".
 
 In this repository, also added are 2 files, which serve to be samples for this notebook. Successful compression shows that there is a significant difference
 in the sizes of these 2 files, while also maintaining information from the original image.

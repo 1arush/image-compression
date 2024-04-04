@@ -13,7 +13,7 @@ in the sizes of these 2 files, while also maintaining information from the origi
 
 Some things to note;
 
-- Value of chosen K is 4 (can be changed)
-- Works on a single image with runtime of about 2 minutes
+- Value of chosen K is 20 (can be changed)
+- Works on a single image with runtime of about 10 seconds
 - Image is input using a path to plt.imread
 - Allows any input dimensions for an image

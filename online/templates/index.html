@@ -9,8 +9,8 @@
     <h2>Image Compression</h2>
     <form id="uploadForm" enctype="multipart/form-data">
         <input type="file" id="fileInput" name="fileInput">
-        <label for="compressionLevelInput">Compression Level:</label>
-        <input type="number" id="compressionLevelInput" name="compressionLevelInput" min="1" max="10" value="5">
+        <label for="compressionLevelInput">Number of clusters:</label>
+        <input type="number" id="compressionLevelInput" name="compressionLevelInput" min="1" max="100" value="16">
         <button type="button" onclick="uploadImage()">Upload</button>
     </form>
     <div id="result"></div>

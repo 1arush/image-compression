@@ -20,7 +20,7 @@ in the sizes of these 2 files, while also maintaining information from the origi
 Some things to note;
 
 - Value of chosen K is 20 (can be changed)
-- Works on a single image with runtime of about 10 seconds
+- Works on a single image with runtime of about 2 seconds
 - Image is input using a path to plt.imread
 - Allows any input dimensions for an image
 
@@ -30,9 +30,9 @@ Some things to note;
  # How to run? 
 1) run the following command
     - ```git clone https://github.com/1arush/image-compression-using-k-means.git```
-2) navigate to ```'image-compression-using-k-means/online'``` and run
+2) navigate to ```image-compression-using-k-means/online``` and run
     - ```pip install -r requirements.txt```
 4) now run the following command
-    - ```python -m app.py```
+    - ```python -m app.py``` (if it doesn't work, remove the ```-m``` flag and run)
 5) a web server on your local machine should open up. now upload the file you would like to compress
 

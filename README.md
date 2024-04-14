@@ -28,11 +28,11 @@ Some things to note;
 **UPDATE**: I have added a folder 'online', which contains my naive implementation of hosting this model on a local web server, using flask.
 
  # How to run? 
-1) run the following commands
+1) run the following command
     - ```git clone https://github.com/1arush/image-compression-using-k-means.git```
-    - ```pip install -r 'image-compression-using-k-means/online/requirements.txt'```
-2) navigate to ```'image-compression-using-k-means/online'```
-3) run the following command
+2) navigate to ```'image-compression-using-k-means/online'``` and run
+    - ```pip install -r requirements.txt```
+4) now run the following command
     - ```python -m app.py```
-4) a web server on your local machine should open up. now upload the file you would like to compress
+5) a web server on your local machine should open up. now upload the file you would like to compress
 
